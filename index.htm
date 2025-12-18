@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Program Studi Pendidikan Matematika</title>
+  <style>
+    :root {
+      --primary: #5b2d8b;
+      --secondary: #3f8efc;
+      --accent: #f4b400;
+      --light: #f5f7fb;
+      --dark: #222;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--light);
+      color: var(--dark);
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: #fff;
+      padding: 90px 20px 80px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 15px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 900px;
+      margin: auto;
+      opacity: 0.95;
+    }
+
+    section {
+      padding: 70px 20px;
+      max-width: 1150px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 45px;
+    }
+
+    .section-title h2 {
+      font-size: 2.2rem;
+      color: var(--primary);
+    }
+
+    .section-title h2::after {
+      content: "";
+      display: block;
+      width: 70px;
+      height: 4px;
+      background: var(--accent);
+      margin: 12px auto 0;
+      border-radius: 3px;
+    }
+
+    .highlight {
+      background: linear-gradient(120deg, #ffffff, #eef1ff);
+      border-left: 8px solid var(--secondary);
+      padding: 35px;
+      border-radius: 16px;
+      box-shadow: 0 12px 28px rgba(0,0,0,0.08);
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 28px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 18px;
+      padding: 35px 28px;
+      box-shadow: 0 14px 32px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+      border-top: 6px solid var(--accent);
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    }
+
+    .card h3 {
+      color: var(--secondary);
+      margin-bottom: 12px;
+    }
+
+    footer {
+      background: linear-gradient(135deg, var(--primary), #2a1b3d);
+      color: #fff;
+      text-align: center;
+      padding: 45px 15px;
+    }
+
+    footer p {
+      margin: 6px 0;
+      font-size: 0.95rem;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Program Studi Pendidikan Matematika</h1>
+    <p>Mencetak calon pendidik matematika yang profesional, inovatif, dan berkarakter untuk menjawab tantangan pendidikan abad ke-21.</p>
+  </header>
+
+  <section>
+    <div class="section-title">
+      <h2>Tentang Program Studi</h2>
+    </div>
+    <div class="highlight">
+      <p>
+        Program Studi Pendidikan Matematika berfokus pada pengembangan kompetensi akademik, pedagogik, dan profesional calon guru matematika. Pembelajaran dirancang kontekstual, adaptif, serta terintegrasi dengan teknologi dan kearifan lokal.
+      </p>
+    </div>
+  </section>
+
+  <section style="background: linear-gradient(120deg, #eef3ff, #ffffff);">
+    <div class="section-title">
+      <h2>Visi & Misi</h2>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <h3>Visi</h3>
+        <p>Menjadi program studi unggul dalam pendidikan matematika yang inovatif, berdaya saing, dan berakar pada nilai lokal.</p>
+      </div>
+      <div class="card">
+        <h3>Misi</h3>
+        <p>Menyelenggarakan pendidikan berkualitas, mengembangkan pendidikan matematika, dan melaksanakan pengabdian kepada masyarakat.</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="background: linear-gradient(120deg, #fff7e6, #ffffff);">
+    <div class="section-title">
+      <h2>Keunggulan Program Studi</h2>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <h3>Pembelajaran Inovatif</h3>
+        <p>Mengintegrasikan teknologi, dan pendekatan kontekstual dalam pembelajaran matematika.</p>
+      </div>
+      <div class="card">
+        <h3>Dosen Profesional</h3>
+        <p>Didukung oleh dosen berpengalaman di bidang pendidikan matematika.</p>
+      </div>
+      <div class="card">
+        <h3>Berbasis Kearifan Lokal</h3>
+        <p>Mengembangkan etnomatematika sebagai identitas dan kekuatan pembelajaran.</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="background: linear-gradient(120deg, #e6f9f0, #ffffff);">
+    <div class="section-title">
+      <h2>Peluang Lulusan</h2>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <h3>Guru Matematika</h3>
+        <p>Pendidik profesional di jenjang SMP, SMA, dan sederajat.</p>
+      </div>
+      <div class="card">
+        <h3>Peneliti Pendidikan</h3>
+        <p>Pengembang riset di bidang pendidikan matematika.</p>
+      </div>
+      <div class="card">
+        <h3>Pengembang Media</h3>
+        <p>Kreator media dan konten pembelajaran matematika digital.</p>
+      </div>
+    </div>
+  </section>
+
+<section>
+<h2>Form Masukan</h2>
+<p>Silakan isi form di bawah untuk memberikan pendapat atau ide aktivitas baru untuk program study pendidikan matematika:</p>
+<form>
+<label for="nama">Nama:</label>
+<input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda">
+
+
+<label for="pesan">Pesan atau Ide:</label>
+<textarea id="pesan" name="pesan" rows="4" placeholder="Tulis ide Anda di sini..."></textarea>
+
+
+<button type="submit">Kirim Ide 💡</button>
+</form>
+</section>
+
+
+  <footer>
+    <p>&copy; 2025 Program Studi Pendidikan Matematika</p>
+    <p>Belajar • Berpikir Kritis • Menginspirasi</p>
+  </footer>
+
+</body>
+</html>
